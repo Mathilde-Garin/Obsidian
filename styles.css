@@ -3,7 +3,8 @@ body {
 	margin-bottom: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color: black;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: 100%;
 	color: grey;
 	font-family: 'Open Sans', sans-serif; 
 }
@@ -13,7 +14,8 @@ body {
 
 
 /*HEADER*/
-.header {
+header {
+	height: 500px;
 
 }
 
@@ -47,28 +49,47 @@ h1, h2 {
 
 h1 {
 	font-size: 70px;
+	padding-top: 150px;
 }
 
 h2 {
 	font-size: 16px;
 }
 
-/*SECTION VIDEOS*/
+/*TABLEAU VIDEOS*/
 .videos {
-	border: solid red;
-	height: 350px;
+
 }
 
 .videos h1{
 	text-transform: uppercase;
 	text-align: left;
 	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 0;
+}
+
+.videos thead tr {
+	height: 50px;
+	border-top: none;
+}
+
+.videos p {
+	color: white;
 	font-size: 18px;
+	font-weight: bold;
+}
+
+.videos .all {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 0;
+	text-align: right;
 }
 	
 /*SECTION GIGS*/
 .gigs {
-	border: solid red;
 	height: 500px;
 }
 
@@ -76,10 +97,12 @@ h2 {
 	text-transform: uppercase;
 	text-align: left;
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 80px;
 }
 
-/*TABLEAU*/
+/*TABLEAU GIGS*/
 
 table {
 	width: 100%;
@@ -104,13 +127,23 @@ table td {
 .jour {
 	font-size: 20px;
 	color: white;
+	font-weight: bold;
 }
 
+.ville {
+	font-weight: bold;
+}
+
+.gigs .allgigs {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: right;
+	padding-bottom: 60px;
+}
 
 /*SECTION ABOUT*/
 .about {
-	border: solid red;
-	height: 400px;
+	height: 490px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -120,13 +153,30 @@ table td {
 	text-align: left;
 	color: white;
 	font-size: 16px;
+	font-weight: bold;
+	padding-top: 45px;	
+}
+
+.about p {
+	font-size: 18px;
 }
 
 .bloc1, .bloc2, .bloc3 {
 	display: inline-block;
 	width: 30%;
-	border: solid green;
 }
+
+.about .recent {
+	font-weight: bold;
+}
+
+.about .time {
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
 
 /*FOOTER*/
 hr{
@@ -147,4 +197,5 @@ footer h1 {
 	font-size: 14px;
 	color: white;
 	margin-top: 30px;
+	padding-top: 0px;
 }
