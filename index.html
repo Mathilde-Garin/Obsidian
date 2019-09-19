@@ -5,39 +5,61 @@
   <meta charset="utf-8">
   <title>Obsidian</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6ecc04ae25.js"></script>
 </head>
 
 <body>
   <div class="container">
 
-    <HEADER>
+    <header>
     	<nav>
     		<ul>
-          <li><a href="">home</a></li>
-          <li><a href="">bio</a></li>
-          <li><a href="">photos</a></li>
-          <li><a href="">music</a></li>
-         	<li><a href="">videos</a></li>
-         	<li><a href="">news</a></li>
-         	<li><a href="">tour</a></li>
-         	<li><a href="">contact</a></li>
+          <li><a href="index.html">home</a></li>
+          <li><a href="index-page-bio.html">bio</a></li>
+          <li><a href="index-page-photos.html">photos</a></li>
+          <li><a href="index-page-music.html">music</a></li>
+         	<li><a href="index-page-videos.html">videos</a></li>
+         	<li><a href="index-page-news.html">news</a></li>
+         	<li><a href="index-page-tour.html">tour</a></li>
+         	<li><a href="index-page-contact.html">contact</a></li>
         </ul>
     	</nav>
       <div class="Titres">
         <h1>projet audio</h1>
         <h2>subtitle...</h2>
       </div>
-    </HEADER>
+    </header>
 
-    <section class="videos">
-      <h1>videos</h1>
-    </section>
+      <table class="videos">
+        <thead>
+          <tr>
+            <td><h1>videos</h1>
+            <td>&nbsp;</td>
+            <td class="all">all videos</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="./Obsidian/images/video-like-a-rose-530x300.jpg" alt="Photo video like a rose" width="100%">
+              <p>Like A Rose - Ashley Monroe</p>
+            </td>
+            <td>
+              <img src="./Obsidian/images/video-big-love-550-530x300.jpg" alt="Photo video like a rose" width="100%">
+              <p>Big Love - Carrie Rodriguez</p>
+            </td>
+            <td class="droite">
+              <img src="./Obsidian/images/video-waitin-on-june-530x300.jpg" alt="Photo video Waiting on June" width="100%">
+              <p>Waiting On June - Holly Williams</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
     <section class="gigs">
       <h1>upcoming gigs</h1>
-      <table>
+      <table class="tabgigs">
         <tbody>
           <tr>
             <td class="mois">SEP</td>
@@ -69,6 +91,12 @@
             <td class="ville">Chipping Ongar, Essex</td>
             <td class="lieu">Zinc Arts Centre</td>
           </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="allgigs">view all gigs</td>
+            <td>&nbsp;</td>
+          </tr>
         </tbody>
       </table>
     </section>
@@ -80,12 +108,16 @@
       </div>
       <div class="bloc2">
         <h1>vivienne's omitted line</h1>
+        <img src="./Obsidian/images/album-03-300x300.jpg" alt="Photo album"/ height="360">
       </div>
       <div class="bloc3">
         <h1>recent posts</h1>
-        <p>Welcome to our redesigned website</p>
-        <p>New tour dates posted</p>
-        <p>History of Popular Music</p>
+        <p class="recent">Welcome to our redesigned website</p>
+        <p class="time">april 1, 2015</p>
+        <p class="recent">New tour dates posted</p>
+        <p class="time">december 16,2014</p>
+        <p class="recent">History of Popular Music</p>
+        <p class="time">december 15, 2014</p>
       </div>
     </section>
 
