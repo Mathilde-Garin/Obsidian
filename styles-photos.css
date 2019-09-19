@@ -1,0 +1,132 @@
+body {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: black;
+	color: grey;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+
+/*HEADER*/
+
+header {
+	border-collapse: bottom;
+}
+
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	font-weight: bold;
+}
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+/*PHOTOS*/
+.photos{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+
+	
+}
+.photos1, .photos2, .photos3, .photos4, .photos5, .photos6, .photos7, .photos8, .photos9, .photos10 {
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 400px;
+	background-size: 70%;
+}
+.photos1{
+	border: 3px blue solid;
+	background-image: url(./Obsidian/images/gallery-09.jpg);
+	width: 50%;
+	
+	background-size: 110%;
+
+}
+.photos2{
+	background-image: url(./Obsidian/images/gallery-04.jpg);
+	border: 3px red solid;
+	width: 500px;
+	border: solid white;
+}
+.photos3{
+	background-image: url(./Obsidian/images/gallery-05.jpg);
+	border: 3px yellow solid;
+
+}
+
+.photos4{
+	background-image: url(./Obsidian/images/gallery-08.jpg);
+	border: 3px green solid;
+	width: 600px
+	background-size: 60%;
+}
+
+.photos5{
+	background-image: url(./Obsidian/images/gallery-07.jpg);
+	border: 3px purple solid;
+}
+
+.photos6{
+	background-image: url(./Obsidian/images/gallery-06.jpg);
+}
+
+.photos7{
+	background-image: url(./Obsidian/images/gallery-03.jpg);
+}
+
+.photos8{
+	background-image: url(./Obsidian/images/gallery-01.jpg);
+}
+.photos9{
+	background-image: url(./Obsidian/images/gallery-02.jpg);
+}
+.photos10{
+	background-image: url(./Obsidian/images/gallery-10.jpg);
+}
+/*FOOTER*/
+hr{
+	margin-bottom: 30px;
+}
+
+.icones {
+	color: white;
+	margin: 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: 30px;
+}
