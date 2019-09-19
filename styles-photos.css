@@ -49,52 +49,82 @@ h2 {
 
 /*PHOTOS*/
 .photos{
-	margin-top: 20px;
-	display: flex;
-	flex-wrap: wrap;
+		border: solid orange;
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(6, 10vw);
+		grid-gap: 0px;
+		width: 100%;
+    	height: 100%;
+    	
+    
 
-	
 }
 .photos1, .photos2, .photos3, .photos4, .photos5, .photos6, .photos7, .photos8, .photos9, .photos10 {
 	background-repeat: no-repeat;
-	width: 400px;
-	height: 400px;
-	background-size: 70%;
+		padding: 0px;
+    	margin: 0px;
+    	background-size: 100%;
+	
 }
 .photos1{
 	border: 3px blue solid;
 	background-image: url(./Obsidian/images/gallery-09.jpg);
-	width: 50%;
 	
-	background-size: 110%;
+	grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
 
 }
 .photos2{
 	background-image: url(./Obsidian/images/gallery-04.jpg);
 	border: 3px red solid;
-	width: 500px;
-	border: solid white;
+	background-size: 99%;
+	grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 .photos3{
-	background-image: url(./Obsidian/images/gallery-05.jpg);
 	border: 3px yellow solid;
-
+	background-image: url(./Obsidian/images/gallery-05.jpg);
+	background-size: 98%;
+	grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
 .photos4{
 	background-image: url(./Obsidian/images/gallery-08.jpg);
 	border: 3px green solid;
-	width: 600px
-	background-size: 60%;
+	background-size: 70%;
+	grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
 
 .photos5{
 	background-image: url(./Obsidian/images/gallery-07.jpg);
 	border: 3px purple solid;
+	background-size: 50%;
+	grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
+
 
 .photos6{
 	background-image: url(./Obsidian/images/gallery-06.jpg);
+	background-size: 80%;
+	grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
 
 .photos7{
@@ -109,6 +139,7 @@ h2 {
 }
 .photos10{
 	background-image: url(./Obsidian/images/gallery-10.jpg);
+	margin-right: auto;
 }
 /*FOOTER*/
 hr{
