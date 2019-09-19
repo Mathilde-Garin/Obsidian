@@ -3,18 +3,25 @@ body {
 	margin-bottom: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color: black;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: 100%;
 	color: grey;
 	font-family: 'Open Sans', sans-serif; 
 }
 
-
-/*HEADER*/
-
-header {
-	border-collapse: bottom;
+.container {
 }
 
+
+/*HEADER*/
+header {
+	height: 500px;
+
+}
+
+.nav {
+
+}
 
 ul {
 	display: flex;
@@ -32,6 +39,7 @@ li a {
 li a:hover {
 	font-weight: bold;
 }
+
 h1, h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -41,19 +49,18 @@ h1, h2 {
 
 h1 {
 	font-size: 70px;
+	padding-top: 150px;
 }
 
 h2 {
 	font-size: 16px;
 }
-
 /*PHOTOS*/
 .photos{
-		border: solid orange;
 		display: grid;
-		grid-template-columns: repeat(6, 1fr);
-		grid-template-rows: repeat(6, 10vw);
-		grid-gap: 0px;
+		grid-template-columns: repeat(7, 1fr);
+		grid-template-rows: repeat(8, 10vw);
+		grid-gap: 2px;
 		width: 100%;
     	height: 100%;
     	
@@ -62,15 +69,13 @@ h2 {
 }
 .photos1, .photos2, .photos3, .photos4, .photos5, .photos6, .photos7, .photos8, .photos9, .photos10 {
 	background-repeat: no-repeat;
-		padding: 0px;
-    	margin: 0px;
-    	background-size: 100%;
+	padding: 0px;
+    margin: 0px;
+    background-size: 100%;
 	
 }
 .photos1{
-	border: 3px blue solid;
 	background-image: url(./Obsidian/images/gallery-09.jpg);
-	
 	grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -80,27 +85,21 @@ h2 {
 }
 .photos2{
 	background-image: url(./Obsidian/images/gallery-04.jpg);
-	border: 3px red solid;
-	background-size: 99%;
-	grid-column-start: 4;
-    grid-column-end: 7;
+	grid-column-start: 5;
+    grid-column-end: 8;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 .photos3{
-	border: 3px yellow solid;
 	background-image: url(./Obsidian/images/gallery-05.jpg);
-	background-size: 98%;
 	grid-column-start: 5;
-    grid-column-end: 7;
+    grid-column-end: 8;
     grid-row-start: 3;
     grid-row-end: 5;
 }
 
 .photos4{
 	background-image: url(./Obsidian/images/gallery-08.jpg);
-	border: 3px green solid;
-	background-size: 70%;
 	grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 5;
@@ -109,9 +108,8 @@ h2 {
 
 .photos5{
 	background-image: url(./Obsidian/images/gallery-07.jpg);
-	border: 3px purple solid;
-	background-size: 50%;
-	grid-column-start: 3;
+	background-size: 99%;
+	grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 7;
@@ -120,26 +118,42 @@ h2 {
 
 .photos6{
 	background-image: url(./Obsidian/images/gallery-06.jpg);
-	background-size: 80%;
-	grid-column-start: 6;
-    grid-column-end: 7;
+	background-size: 100%;
+	grid-column-start: 7;
+    grid-column-end: 8;
     grid-row-start: 5;
     grid-row-end: 7;
 }
 
 .photos7{
 	background-image: url(./Obsidian/images/gallery-03.jpg);
+	grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
 }
 
 .photos8{
 	background-image: url(./Obsidian/images/gallery-01.jpg);
+	grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 9;
 }
+
 .photos9{
 	background-image: url(./Obsidian/images/gallery-02.jpg);
+	grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 9;
 }
 .photos10{
 	background-image: url(./Obsidian/images/gallery-10.jpg);
-	margin-right: auto;
+	grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 9;
 }
 /*FOOTER*/
 hr{
