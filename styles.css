@@ -1,9 +1,14 @@
 body {
-
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: black;
+	color: grey;
+	font-family: 'Open Sans', sans-serif; 
 }
 
 .container {
-
 }
 
 
@@ -13,7 +18,133 @@ body {
 }
 
 .nav {
-	color: black;
-	text-transform: uppercase;
+
 }
 
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	font-weight: bold;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+/*SECTION VIDEOS*/
+.videos {
+	border: solid red;
+	height: 350px;
+}
+
+.videos h1{
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+	
+/*SECTION GIGS*/
+.gigs {
+	border: solid red;
+	height: 500px;
+}
+
+.gigs h1{
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+
+/*TABLEAU*/
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr {
+	border-bottom: solid 1px gray;
+	border-top: solid 1px gray;
+}
+
+table td {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.mois {
+	font-size: 14px;
+}
+
+.jour {
+	font-size: 20px;
+	color: white;
+}
+
+
+/*SECTION ABOUT*/
+.about {
+	border: solid red;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about h1{
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	font-size: 16px;
+}
+
+.bloc1, .bloc2, .bloc3 {
+	display: inline-block;
+	width: 30%;
+	border: solid green;
+}
+
+/*FOOTER*/
+hr{
+	margin-bottom: 30px;
+}
+
+.icones {
+	color: white;
+	margin: 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: 30px;
+}
