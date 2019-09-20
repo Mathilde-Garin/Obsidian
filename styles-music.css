@@ -1,0 +1,188 @@
+body {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+	color: grey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER*/
+header {
+	height: 260px;
+}
+
+.Titres {
+	color: white;
+	text-align: center;
+}
+
+.nav {
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	font-weight: bold;
+}
+
+h1, h2, {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	color: white;
+}
+
+h5 {
+	color: white;
+}
+
+/*PHOTO */
+
+.milieu {
+	margin-bottom: 200px;
+}
+
+.photo-album {
+	background-image: url(./Obsidian/images/album-03-300x300.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 300px;
+}
+
+.blocg {
+	display: inline-block;
+}
+
+/*LIENS*/
+
+.liens {
+	width: 200px;
+	flex-direction: column;
+	align-items: baseline;
+	text-align: center;
+}
+
+.Vivienne {
+	color: white;
+}
+
+.release {
+	color: white;
+
+}
+
+/*TABLEAU*/
+
+.Album {
+	border: solid green;
+	width: 65%;
+	float: right;
+	margin-bottom: 50px;
+
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+
+}
+
+table tr {
+	border-bottom: solid 1px gray;
+	border-top: solid 1px gray;
+
+}
+
+table td {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+
+}
+
+.piste {
+
+}
+
+.chanson {
+	color: white;
+
+}
+
+/*BANDEAU*/
+
+.bandeau {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.bloc1 {
+	float left;
+	width: 450px;
+
+}
+
+.bloc2 {
+	width: 450px;
+
+}
+
+.bloc3 {
+	width: 450px;
+	float right;
+
+}
+
+/*FOOTER*/
+
+hr {
+	margin-bottom: 30px;
+	color: gray;
+
+}
+
+.icones {
+	color: white;
+	margin: 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+footer h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: 30px;
+	padding-top: 0px;
+
+}

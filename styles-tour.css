@@ -1,0 +1,159 @@
+body {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: black;
+	color: grey;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.container {
+}
+
+/*HEADER*/
+header {
+	height: 320px;
+}
+
+.Titres {
+}
+
+.Support {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.nav {
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	font-weight: bold;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+	padding-top: 10px;
+}
+
+.up {
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-right: 50px;
+	color: white;
+}
+	
+/*TABLEAU*/
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr {
+	border-bottom: solid 1px gray;
+	border-top: solid 1px gray;
+}
+
+table td {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.mois {
+	font-size: 14px;
+}
+
+.jour {
+	font-size: 20px;
+	color: white;
+}
+
+.Austin {
+	border: none;
+}
+
+.description td {
+	border-collapse: ;
+	padding-top: 0;
+}
+
+/*SECTION ABOUT*/
+
+.about {
+	height: 490px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about h1{
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 45px;	
+}
+
+.about p {
+	font-size: 18px;
+}
+
+.bloc1, .bloc2, .bloc3 {
+	display: inline-block;
+	width: 30%;
+}
+
+.about .recent {
+	font-weight: bold;
+}
+
+.about .time {
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+/*FOOTER*/
+
+.icones {
+	color: white;
+	margin: 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: 30px;
+	padding-top: 0px;
+}
