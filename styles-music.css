@@ -3,24 +3,25 @@ body {
 	margin-bottom: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-color: black;
 	color: grey;
-	font-family: 'Open Sans', sans-serif; 
+	font-family: 'Open Sans', sans-serif;
 }
-
-.container {
-}
-
 
 /*HEADER*/
-
-.header {
-
+header {
+	height: 260px;
 }
 
+.Titres {
+	color: white;
+	text-align: center;
+}
 
 .nav {
-
 }
 
 ul {
@@ -40,7 +41,7 @@ li a:hover {
 	font-weight: bold;
 }
 
-h1, h2 {
+h1, h2, {
 	text-transform: uppercase;
 	text-align: center;
 	color: white;
@@ -52,32 +53,45 @@ h1 {
 }
 
 h2 {
-	font-size: 16px;
+	color: white;
 }
 
+h5 {
+	color: white;
+}
 
 /*PHOTO */
+
+.milieu {
+	margin-bottom: 200px;
+}
 
 .photo-album {
 	background-image: url(./Obsidian/images/album-03-300x300.jpg);
 	background-repeat: no-repeat;
-	border: solid green;
 	height: 300px;
 	width: 300px;
 }
 
 .blocg {
 	display: inline-block;
-	border: solid blue;
 }
 
 /*LIENS*/
 
 .liens {
-	width: 30%;
+	width: 200px;
 	flex-direction: column;
 	align-items: baseline;
-	border: solid red;
+	text-align: center;
+}
+
+.Vivienne {
+	color: white;
+}
+
+.release {
+	color: white;
 
 }
 
@@ -85,8 +99,10 @@ h2 {
 
 .Album {
 	border: solid green;
-	width: 60%;
-	
+	width: 65%;
+	float: right;
+	margin-bottom: 50px;
+
 }
 
 table {
@@ -108,13 +124,49 @@ table td {
 
 }
 
-/*FOOTER*/
-
-hr{
-	margin-bottom: 30px;
+.piste {
 
 }
 
+.chanson {
+	color: white;
+
+}
+
+/*BANDEAU*/
+
+.bandeau {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.bloc1 {
+	float left;
+	width: 450px;
+
+}
+
+.bloc2 {
+	width: 450px;
+
+}
+
+.bloc3 {
+	width: 450px;
+	float right;
+
+}
+
+/*FOOTER*/
+
+hr {
+	margin-bottom: 30px;
+	color: gray;
+
+}
 
 .icones {
 	color: white;
@@ -131,5 +183,6 @@ footer h1 {
 	font-size: 14px;
 	color: white;
 	margin-top: 30px;
+	padding-top: 0px;
 
 }

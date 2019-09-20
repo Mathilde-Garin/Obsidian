@@ -5,33 +5,40 @@
   <meta charset="utf-8">
   <title>Obsidian</title>
   <link rel="stylesheet" href="styles-tour.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6ecc04ae25.js"></script>
 </head>
 
 <body>
   <div class="container">
+    <header>
 
-<!--HEADER##############################################################################-->
+<!--BARRE MENU##########################################################################-->
 
-    <HEADER>
-    	<nav>
-    		<ul>
-          <li><a href="">home</a></li>
-          <li><a href="">bio</a></li>
-          <li><a href="">photos</a></li>
-          <li><a href="">music</a></li>
-         	<li><a href="">videos</a></li>
-         	<li><a href="">news</a></li>
-         	<li><a href="">tour</a></li>
-         	<li><a href="">contact</a></li>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="index-page-bio.html">bio</a></li>
+          <li><a href="index-page-photos.html">photos</a></li>
+          <li><a href="index-page-music.html">music</a></li>
+          <li><a href="index-page-videos.html">videos</a></li>
+          <li><a href="index-page-news.html">news</a></li>
+          <li><a href="index-page-tour.html"><B>tour</B></a></li>
+          <li><a href="index-page-contact.html">contact</a></li>
         </ul>
-    	</nav>
-      <div class="Titres">
+      </nav>
+
+<!--TITRES###############################################################################-->
+
+    <div class="Titres">
         <h1>OBSIDIAN</h1>
         <h2>GIGS</h2>
 
-      <nav>
+  <hr align="center" width="100%" color="gray" size="1">
+
+<!--SOUS-TITRES##########################################################################-->
+
+      <nav class="up">
         <ul>
           <li><strong>UPCOMING</strong></li>
           <li><strong>2015</strong></li>
@@ -39,14 +46,15 @@
         </ul>
       </nav>
     </div>
-    </HEADER>
+    </header>
 
+  <hr align="center" width="100%" color="gray" size="1">
 
 <!--PHRASE INTRO#########################################################################-->
 
       <div class="Support">
         <p>
-          Support live music and show appreciation for your favorite artiste by attending a concert. You'll enjoy the experience.
+          Support live music and show appreciation for your favorite artiste by attending a concert. You'll enjoy<br>the experience.
         </p>
       </div>
 
@@ -91,13 +99,16 @@
             <td class="ville">Austin, TX</td>
             <td class="lieu">ACL Live at The Moody Theater</td>
           </tr>
-          <tr>
+          <tr class="Austin">
             <td class="mois">MAR</td>
             <td class="jour">19</td>
-            
             <td class="ville">Austin, TX</td>
             <td class="lieu">A Gig Title</td>
-            <td colspan="2">A description of th gig to display within the list of gigs. Who is the opening act, special guests, etc? Keep it short.</td>
+          </tr>
+          <tr class="description">
+            <td></td>
+            <td></td>
+            <td colspan="2">A description of the gig to display within the list of gigs. Who is the opening act, special guests, etc? Keep it short.</td>
           </tr>
           <tr>
             <td class="mois">APR</td>
@@ -115,16 +126,32 @@
       </table>
     </section>
 
-<!--3 COLONNES #############################################################################-->
+<!--3-COLONNES #############################################################################-->
 
-    <section class="Colonnes">
-      
+    <section class="about">
+      <div class="bloc1">
+        <h1>about obsidian</h1>
+        <p>The Obsidian theme, like the naturally occurring volcanic glass of the same name, possesses an inherent allure that's stylish in appearance and practical in purpose. With distinctive background options and various customization possibilities, Obsidian makes it easy to create the ultimate hub for your online identity.</p>
+      </div>
+      <div class="bloc2">
+        <h1>vivienne's omitted line</h1>
+        <img src="./Obsidian/images/album-03-300x300.jpg" alt="Photo album"/ height="360">
+      </div>
+      <div class="bloc3">
+        <h1>recent posts</h1>
+        <p class="recent">Welcome to our redesigned website</p>
+        <p class="time">april 1, 2015</p>
+        <p class="recent">New tour dates posted</p>
+        <p class="time">december 16,2014</p>
+        <p class="recent">History of Popular Music</p>
+        <p class="time">december 15, 2014</p>
+      </div>
     </section>
 
 <!--FOOTER##################################################################################-->
 
     <footer>
-      <hr align="center" width="100%" color="#e8e8e8" size="1">
+      <hr align="center" width="100%" color="gray" size="1">
       <div class="icones">
         <i class="fab fa-twitter"></i>
         <i class="fab fa-facebook-square"></i>
@@ -139,9 +166,6 @@
       </div>
       <h1>obsidian music theme by audiotheme</h1>
     </footer>
-
   </div>
-
 </body>
-
 </html>

@@ -3,6 +3,9 @@ body {
 	margin-bottom: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-color: black;
 	color: grey;
 	font-family: 'Open Sans', sans-serif; 
@@ -11,14 +14,20 @@ body {
 .container {
 }
 
-
 /*HEADER*/
-HEADER {
-	
+header {
+	height: 320px;
+}
+
+.Titres {
+}
+
+.Support {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .nav {
-
 }
 
 ul {
@@ -47,25 +56,16 @@ h1, h2 {
 
 h1 {
 	font-size: 70px;
+	padding-top: 10px;
 }
 
-h2 {
-	font-size: 16px;
+.up {
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-right: 50px;
+	color: white;
 }
 	
-/*SECTION GIGS*/
-.gigs {
-	border: solid red;
-	height: 500px;
-}
-
-.gigs h1{
-	text-transform: uppercase;
-	text-align: left;
-	color: white;
-	font-size: 18px;
-}
-
 /*TABLEAU*/
 
 table {
@@ -93,11 +93,19 @@ table td {
 	color: white;
 }
 
+.Austin {
+	border: none;
+}
+
+.description td {
+	border-collapse: ;
+	padding-top: 0;
+}
 
 /*SECTION ABOUT*/
+
 .about {
-	border: solid red;
-	height: 400px;
+	height: 490px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -107,18 +115,31 @@ table td {
 	text-align: left;
 	color: white;
 	font-size: 16px;
+	font-weight: bold;
+	padding-top: 45px;	
+}
+
+.about p {
+	font-size: 18px;
 }
 
 .bloc1, .bloc2, .bloc3 {
 	display: inline-block;
 	width: 30%;
-	border: solid green;
+}
+
+.about .recent {
+	font-weight: bold;
+}
+
+.about .time {
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 20px;
 }
 
 /*FOOTER*/
-hr{
-	margin-bottom: 30px;
-}
 
 .icones {
 	color: white;
@@ -134,4 +155,5 @@ footer h1 {
 	font-size: 14px;
 	color: white;
 	margin-top: 30px;
+	padding-top: 0px;
 }
