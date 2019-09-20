@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 /*TABLEAU VIDEOS*/
@@ -86,6 +86,11 @@ h2 {
 	font-size: 14px;
 	padding-bottom: 0;
 	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
 }
 	
 /*SECTION GIGS*/
