@@ -1,0 +1,82 @@
+body {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: 100%;
+	color: grey;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.container {
+}
+
+
+/*HEADER*/
+header {
+	height: 500px;
+
+}
+
+.nav {
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	font-weight: bold;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+	padding-top: 150px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+
+
+
+/*FOOTER*/
+hr{
+	margin-bottom: 30px;
+}
+
+.icones {
+	color: white;
+	margin: 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: 30px;
+	padding-top: 0px;
+}

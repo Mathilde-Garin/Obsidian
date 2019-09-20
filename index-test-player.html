@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Obsidian</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-test-player.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6ecc04ae25.js"></script>
+  <script src="player.js"></script>
 </head>
 
 <body>
@@ -27,24 +28,20 @@
     	</nav>
       <div class="Titres">
         <h1>projet audio</h1>
-        <h2>subtitle...</h2>
+        <h2>JUST ANOTHER AUDIOTHEME DEMO SITE</h2>
       </div>
     </header>
- 
+   
+<audio id="audioPlayer">
+    <source src="hype_home.ogg">
+    <source src="hype_home.mp3">
+</audio>
+
+<button class="control" onclick="play('audioPlayer', this)">Play</button>
+<button class="control" onclick="resume('audioPlayer')">Stop</button>
+    
 
     <footer>
-      <hr align="center" width="100%" color="#e8e8e8" size="1">
-      <div class="icones">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
-        <i class="fab fa-vimeo-v"></i>
-        <i class="fab fa-amazon"></i>
-        <i class="fab fa-apple"></i>
-        <i class="fab fa-soundcloud"></i>
-        <i class="fab fa-spotify"></i>
-        <i class="fab fa-spotify"></i>
-      </div>
-      <h1>obsidian music theme by audiotheme</h1>
+  
+
     </footer>
