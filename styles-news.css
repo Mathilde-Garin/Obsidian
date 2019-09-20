@@ -1,0 +1,236 @@
+body {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+	background-size: 100%;
+	color: grey;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.container {
+}
+
+
+/*HEADER*/
+header {
+	height: 330px;
+
+}
+
+.nav {
+
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+li a {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	font-weight: bold;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+
+/*FORMULAIRE*/
+
+form  {
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+input {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	width: 300px;
+	color: gray;
+	padding-left: 10px;
+}
+
+input, textarea {
+	background-color: rgba(0,0,0,0.3);
+	border-color: gray;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.submit {
+	color: white;
+	width: 110px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 10px;
+	background-color: rgba(0,0,0,0.6);
+	margin-top: 10px;
+}
+
+/*ARTICLES*/
+
+article {
+	width: 60%;
+	display: inline-block;
+}
+
+article h1 {
+	text-transform: none;
+	font-size: 24px;
+	text-align: left;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+.nomdate {
+	padding-bottom: 0px;
+	font-size: 14px;
+}
+
+article p {
+	padding-bottom: 20px;
+}
+
+article img {
+	width: 100%;
+}
+
+.num1, .num2 {
+	border: solid gray 1px;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+}
+
+.num1 {
+	background-color: rgba(0,0,0,0.4);
+}
+
+/*SEARCH & LATEST NEWS*/
+
+.cold {
+	width: 30%;
+	float: right;
+}
+
+.search input {
+	margin-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 10px;
+}
+
+.search {
+	margin-bottom: 20px;
+}
+
+/*LATEST NEWS*/
+
+.lastnews h1 {
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 0px;	
+}
+.lastnews .time {
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.lastnews .recent {
+	font-size: 18px;
+	font-weight: bold;
+	color: white;	
+}
+
+.lastnews {
+
+}
+
+
+/*SECTION ABOUT*/
+.about {
+	height: 490px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about h1{
+	text-transform: uppercase;
+	text-align: left;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;	
+}
+
+.about p {
+	font-size: 18px;
+}
+
+.bloc1, .bloc2, .bloc3 {
+	display: inline-block;
+	width: 30%;
+}
+
+.about .recent {
+	font-weight: bold;
+}
+
+.about .time {
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+
+/*FOOTER*/
+hr{
+	margin-bottom: 30px;
+}
+
+.icones {
+	color: white;
+	margin: 0 auto;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	margin-top: 30px;
+	padding-top: 0px;
+}

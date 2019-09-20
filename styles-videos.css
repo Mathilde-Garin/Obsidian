@@ -4,7 +4,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
-	background-size: 100% 765px;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: black;
 	color: grey;
