@@ -12,9 +12,7 @@ body {
 }
 
 .container {
-
 }
-
 
 /*HEADER*/
 header {
@@ -112,13 +110,12 @@ h2 {
 
 
 /*FOOTER*/
-hr{
-	margin-bottom: 30px;
-}
+
 
 .icones {
 	color: white;
 	margin: 0 auto;
+	padding-top: 10px;
 	width: 450px;
 	display: flex;
 	justify-content: space-between;

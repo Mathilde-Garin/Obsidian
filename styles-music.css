@@ -64,7 +64,7 @@ h5 {
 /*PHOTO */
 
 .milieu {
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 }
 
 .photo-album {
@@ -125,7 +125,7 @@ h5 {
 .Album {
 	width: 65%;
 	float: right;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 table {
@@ -187,6 +187,7 @@ hr {
 .icones {
 	color: white;
 	margin: 0 auto;
+	padding-top: 10px;
 	width: 450px;
 	display: flex;
 	justify-content: space-between;
@@ -199,4 +200,5 @@ footer h1 {
 	color: white;
 	margin-top: 30px;
 	padding-top: 0px;
+	font-weight: normal;
 }

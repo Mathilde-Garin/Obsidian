@@ -16,7 +16,7 @@ body {
 
 /*HEADER*/
 header {
-	height: 320px;
+	height: 360px;
 }
 
 .Titres {
@@ -65,12 +65,15 @@ h1 {
 	padding-right: 50px;
 	color: white;
 }
+
+
 	
 /*TABLEAU*/
 
 table {
 	width: 100%;
 	border-collapse: collapse;
+	margin-bottom: 50px;
 }
 
 table tr {
@@ -94,18 +97,27 @@ table td {
 }
 
 .Austin {
-	border: none;
+	border-bottom: none;
+	border-top: none;
 }
 
-.description td {
-	border-collapse: ;
+.description {
+	border-top: none;
+	font-size: 14px;
+}
+
+.relou {
 	padding-top: 0;
 }
+.Austin .mois, .jour, .ville, .lieu {
+	padding-bottom: 0;
+}
+
 
 /*SECTION ABOUT*/
 
 .about {
-	height: 490px;
+	height: 50%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -116,7 +128,7 @@ table td {
 	color: white;
 	font-size: 16px;
 	font-weight: bold;
-	padding-top: 45px;	
+	padding-top: 0px;	
 }
 
 .about p {
@@ -140,6 +152,10 @@ table td {
 }
 
 /*FOOTER*/
+
+hr {
+	margin-bottom: 30px;
+}
 
 .icones {
 	color: white;
