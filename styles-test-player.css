@@ -16,22 +16,30 @@ body {
 #audioplayer{
   border: solid red;
   margin:0px;
+  display: inline;
 
 }
 #audiotrack{
-  display: inline-block;
-  width: 100%; 
+  width: 100%;
+}
+.titre{
+   width: 100%;
+  background-color: black;
+  display: inline-flex;
 }
 .pochette{
-
+ 
+  width: 40px;
+  height:40px;
   border: solid blue;
   background-image: url(./Obsidian/images/miniature-player.png);
-}
+  background-size: 100%;
 
-.play{
-    border: solid green;
 }
-
+.titrealbum{
+margin-left: 50px;
+   border: solid green;
+}
 
 /*HEADER*/
 header {
