@@ -1,0 +1,83 @@
+body {
+  
+  background-image: url(./Obsidian/images/featured-bio-nb.jpg); 
+  background-size: 100%;
+  color: grey;
+  font-family: 'Open Sans', sans-serif; 
+  background-repeat: no-repeat;
+  height: 500px;
+  width: auto;
+}
+
+.container {
+}
+
+/*PARTIE LECTURE*/
+#audioplayer{
+  border: solid red;
+  margin:0px;
+
+}
+#audiotrack{
+  display: inline-block;
+  width: 100%; 
+}
+.pochette{
+
+  border: solid blue;
+  background-image: url(./Obsidian/images/miniature-player.png);
+}
+
+.play{
+    border: solid green;
+}
+
+
+/*HEADER*/
+header {
+  height: 500px;
+
+}
+
+.nav {
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  font-weight: bold;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 70px;
+  padding-top: 150px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+
+
+
+/*FOOTER*/
+  

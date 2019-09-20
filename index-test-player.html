@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Obsidian</title>
+  <link rel="stylesheet" href="styles-test-player.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6ecc04ae25.js"></script>
+  <script src="player.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+    	<nav>
+    		<ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="index-page-bio.html">bio</a></li>
+          <li><a href="index-page-photos.html">photos</a></li>
+          <li><a href="index-page-music.html">music</a></li>
+         	<li><a href="index-page-videos.html">videos</a></li>
+         	<li><a href="index-page-news.html">news</a></li>
+         	<li><a href="index-page-tour.html">tour</a></li>
+         	<li><a href="index-page-contact.html">contact</a></li>
+        </ul>
+    	</nav>
+      <div class="Titres">
+        <h1>projet audio</h1>
+        <h2>JUST ANOTHER AUDIOTHEME DEMO SITE</h2>
+      </div>
+    </header>
+   
+<audio id="audioPlayer">
+    <source src="hype_home.ogg">
+    <source src="hype_home.mp3">
+</audio>
+
+<button class="control" onclick="play('audioPlayer', this)">Play</button>
+<button class="control" onclick="resume('audioPlayer')">Stop</button>
+    
+
+    <footer>
+  
+
+    </footer>
