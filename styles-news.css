@@ -118,17 +118,42 @@ article img {
 	width: 100%;
 }
 
+
+/*BOUTONS*/
+
 .num1, .num2 {
-	border: solid gray 1px;
-	width: 30px;
+	width: 35px;
 	height: 30px;
 	padding: 0;
 	text-align: center;
 	display: inline-block;
+	margin-top:0;
+	margin-bottom: 5px;
+	padding-top: 6px;
+
+}
+
+.num1:hover {
+	font-weight: bold;
+	border-color: rgba(211,211,211,0.2);
+	background-color: rgba(211,211,211,0.2);
+
+}
+
+.num2:hover {
+	font-weight: bold;
+	background-color: rgba(211,211,211,0.2);
 }
 
 .num1 {
-	background-color: rgba(0,0,0,0.4);
+	border: solid gray 1px;
+	border-color: rgba(211,211,211,0.2);
+	margin-right: 4px;
+}
+
+.num2 {
+	border: solid gray 1px;
+	border-color: rgba(211,211,211,0.2);
 }
 
 /*SEARCH & LATEST NEWS*/
@@ -174,6 +199,11 @@ article img {
 .lastnews {
 
 }
+
+.bouton {
+	margin-bottom: 15px;
+}
+
 
 
 /*SECTION ABOUT*/
